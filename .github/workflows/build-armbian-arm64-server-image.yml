@@ -497,6 +497,7 @@ jobs:
           kernel_usage: ${{ inputs.kernel_usage }}
           armbian_fstype: ${{ inputs.armbian_fstype }}
           builder_name: ${{ inputs.builder_name }}
+          armbian_files: custom/ssv6051
 
       - name: Upload rebuilt images to Release
         uses: ophub/upload-to-releases@main
